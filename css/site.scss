@@ -1,0 +1,14 @@
+$green: #198754;
+$yellow: #ffc107;
+$primary: $green;
+$secondary: $yellow;
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Lora&family=Outfit:wght@300&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+html {
+    font-family: 'Lora' serif;
+}
+
+a {
+    font-weight: 600;
+}
