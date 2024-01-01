@@ -3791,7 +3791,7 @@ textarea.form-control-lg {
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
+  --bs-nav-link-font-weight: 600;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: #6c757d;
@@ -3913,7 +3913,7 @@ textarea.form-control-lg {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-hover-color: rgba(25, 135, 84, 0.75);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -3965,7 +3965,7 @@ textarea.form-control-lg {
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
+  --bs-nav-link-font-weight: 600;
   --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
@@ -11789,10 +11789,66 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
-  font-family: "Lora" serif;
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  background-color: #fdfaf3;
 }
 
-a {
-  font-weight: 600;
+h1, .h1, h2, .h2, a {
+  font-family: "Lora", serif;
+}
+
+.navbar-brand {
+  color: #198754;
+}
+
+.bg-hero-section {
+  background-image: url("../images/hero/hero-bg.svg");
+  background-size: cover;
+}
+
+.bg-service-section {
+  background-image: url("../images/services/Curved-Line-Services.svg");
+  background-size: cover;
+}
+
+.bg-prices-section {
+  background-image: url("../images/prices/prices-bg.svg");
+  background-size: cover;
+}
+
+.btn-primary {
+  color: white;
+}
+
+.img-fluid {
+  object-fit: contain;
+  height: 100%;
+}
+
+.content-space {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 0.5rem;
+}
+
+.price-icon {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-hero-section {
+    background-image: url("../images/hero/hero-bg.svg");
+    background-size: cover;
+    height: auto;
+  }
 }

@@ -1,4 +1,10 @@
 {
     "liveServer.settings.port": 5501,
-    "compile-hero.disable-compile-files-on-did-save-code": false
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "css.styleSheets": [
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
+    "/css/site.css",
+    "site.css",
+    "${fileBasenameNoExtension}.css"
+  ]
 }

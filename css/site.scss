@@ -2,13 +2,71 @@ $green: #198754;
 $yellow: #ffc107;
 $primary: $green;
 $secondary: $yellow;
+$nav-link-font-weight: 600;
+$navbar-light-hover-color: rgba($green, .75);
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Lora&family=Outfit:wght@300&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-html {
-    font-family: 'Lora' serif;
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    background-color: #fdfaf3;
 }
 
-a {
-    font-weight: 600;
+h1, h2, a {
+    font-family: 'Lora', serif;
+}
+
+.navbar-brand {
+    color: $primary;
+}
+
+.bg-hero-section {
+    background-image: url("../images/hero/hero-bg.svg");
+    background-size: cover;
+}
+
+.bg-service-section {
+    background-image: url("../images/services/Curved-Line-Services.svg");
+    background-size: cover;
+}
+
+.bg-prices-section {
+    background-image: url("../images/prices/prices-bg.svg");
+    background-size: cover;
+}
+
+.btn-primary {
+    color: white;
+}
+
+.img-fluid{
+  object-fit:contain;
+  height:100%;
+}
+
+.content-space {
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: .5rem;
+}
+
+.price-icon {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 576px){
+      .bg-hero-section {
+        background-image: url("../images/hero/hero-bg.svg");
+        background-size: cover;
+        height: auto;
+    }
 }
